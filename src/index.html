@@ -30,6 +30,7 @@
         }
         else {
             document.getElementById('content').innerHTML = '<h1>Welcome to JonteScript</h1><p>JonteScript is a Javascript loader. It loads and runs JavaScript files from <a href="https://github.com/Jontes-Tech/js">github.com/Jontes-Tech/js</a> and is incredibly light.</p>';
+            document.getElementById('content').innerHTML += `<h2>Here's some example scripts</h2><li><a href='${location.href}?s=helloworld'>Hello World</a></li><li><a href='${location.href}?s=divby'>Divby</a></li>`
         }
 
         head.appendChild(js);
