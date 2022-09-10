@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(33, 37, 39);
+    color: white;
+    font-family: monospace;
+    margin: 2%
+}
+
+a {
+    color: rgb(255, 233, 206);
+}
+
+input,
+button {
+    margin: 5px;
+    background-color: rgb(56, 62, 65);
+    font-family: monospace;
+    color: rgb(255, 233, 206);
+    border-width: 0;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 5px 0 #28272d
+}
+
+button:active {
+    box-shadow: none;
+    transform: translateY(5px)
+}
